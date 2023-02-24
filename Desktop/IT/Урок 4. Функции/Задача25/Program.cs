@@ -8,8 +8,6 @@ int numberA = ReadInt("Введите число A: ");
 int numberB = ReadInt("Введите число B: ");
 Degree(numberA, numberB);
 
-
-
 void Degree(int a, int b)
 {
     int result = 1;
@@ -19,7 +17,6 @@ void Degree(int a, int b)
     }
     Console.WriteLine(result);
 }
-
 
 int ReadInt(string message)
 {
